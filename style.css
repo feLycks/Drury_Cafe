@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --text-clor:#eee;
+}
+
+.header {
+    background-image: url(./images/banner-1.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 0px 100px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 0 0;
+    color: var(--text-clor);
+    background-color:transparent;
+}
+
+.logo p {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    cursor: pointer;
+}
+
+#cafe {
+    font-weight: lighter;
+    font-size: 28px;
+    letter-spacing: .5rem;
+}
+
+.nav-item {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.nav-item ul li {
+    display: inline;
+    padding: 0px 20px;
+}
+
+.nav-item ul li a {
+    color: var(--text-clor);
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: monospace;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+}
+/* cart  */
+.check-out img {
+    width: 40px;
+    height: auto;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+
+.descr{
+    margin-top: 80px;
+    text-align: center;
+    color: var(--text-clor);
+}
